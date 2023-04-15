@@ -1,6 +1,6 @@
 {
     "name": "com.omid3098.openrest",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "displayName": "Open REST",
     "description": "OpenRest is a simple and easy to use REST client for Unity that works in both Unity Editor and in the build. It is based on UnityWebRequest and supports all platforms that Unity supports.",
     "unity": "2018.1",
