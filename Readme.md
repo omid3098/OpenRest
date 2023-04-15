@@ -22,7 +22,9 @@ The easiest way to install OpenRest is via the Unity Package Manager.
 com.unity.nuget.newtonsoft-json
 ```
 
-- Install [EditorCoroutine](https://docs.unity3d.com/Packages/com.unity.editorcoroutines@1.0/manual/index.html) package from the Package Manager window -> Add package from git URL:
+- Install [EditorCoroutine](https://docs.unity3d.com/Packages/com.unity.editorcoroutines@1.0/manual/index.html) package from the Package Manager window
+
+- Install [OpenRest](https://github.com/omid3098/OpenRest) package from the Package Manager window -> Add package from git URL:
 
 ```
 https://github.com/omid3098/OpenRest.git
