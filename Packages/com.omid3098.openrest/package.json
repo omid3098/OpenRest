@@ -1,0 +1,26 @@
+{
+    "name": "com.omid3098.openrest",
+    "version": "1.0.0",
+    "displayName": "Open REST",
+    "description": "OpenRest is a simple and easy to use REST client for Unity that works in both Unity Editor and in the build. It is based on UnityWebRequest and supports all platforms that Unity supports.",
+    "unity": "2018.1",
+    "documentationUrl": "https://github.com/omid3098/OpenRest",
+    "changelogUrl": "https://github.com/omid3098/OpenRest",
+    "licensesUrl": "https://github.com/omid3098/OpenRest",
+    "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.0",
+        "com.unity.editorcoroutines": "1.0.0"
+    },
+    "keywords": [
+        "REST",
+        "API",
+        "upm",
+        "Restful",
+        "utility"
+    ],
+    "author": {
+        "name": "Omid Saadat",
+        "email": "info@omid-saadat.com",
+        "url": "https://omid-saadat.com"
+    }
+}
