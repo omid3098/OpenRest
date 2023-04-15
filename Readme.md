@@ -10,8 +10,6 @@ and it requires EditorCoroutine package to work in the editor.
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Examples](#examples)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
@@ -78,7 +76,3 @@ var client =  RestClient.Get()
 ## License
 
 [MIT](LICENSE)
-
-```
-
-```
