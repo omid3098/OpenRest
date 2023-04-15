@@ -1,21 +1,22 @@
 using UnityEngine;
-
-public class CoroutineRunner : MonoBehaviour
+namespace OpenRest
 {
-    private static CoroutineRunner _instance;
-
-    public static CoroutineRunner Instance
+    public class CoroutineRunner : MonoBehaviour
     {
-        get
+        private static CoroutineRunner _instance;
+
+        public static CoroutineRunner Instance
         {
-            if (_instance == null)
+            get
             {
-                GameObject coroutineRunnerObject = new GameObject("CoroutineRunner");
-                _instance = coroutineRunnerObject.AddComponent<CoroutineRunner>();
-                DontDestroyOnLoad(coroutineRunnerObject);
+                if (_instance == null)
+                {
+                    GameObject coroutineRunnerObject = new GameObject("CoroutineRunner");
+                    _instance = coroutineRunnerObject.AddComponent<CoroutineRunner>();
+                    DontDestroyOnLoad(coroutineRunnerObject);
+                }
+                return _instance;
             }
-            return _instance;
         }
     }
 }
-
