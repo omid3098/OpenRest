@@ -13,8 +13,12 @@ and it requires EditorCoroutine package to work in the editor.
 - [License](#license)
 
 ## Installation
+The easiest way to install OpenRest is using [UPM](https://openupm.com/packages/com.omid3098.openrest):
+```
+openupm add com.omid3098.openrest
+```
 
-The easiest way to install OpenRest is via the Unity Package Manager.
+Or install manually:
 
 - Install [Newtonsoft.Json](https://github.com/jilleJr/Newtonsoft.Json-for-Unity/wiki/Install-official-via-UPM) package from the Package Manager window -> Add package by name:
 
@@ -24,11 +28,7 @@ com.unity.nuget.newtonsoft-json
 
 - Install [EditorCoroutine](https://docs.unity3d.com/Packages/com.unity.editorcoroutines@1.0/manual/index.html) package from the Package Manager window
 
-- Install [OpenRest](https://github.com/omid3098/OpenRest) package from the Package Manager window -> Add package from git URL:
-
-```
-https://github.com/omid3098/OpenRest.git
-```
+- Copy Contents of the Packages folder into your project ```Packages/com.omid3098.openrest```
 
 ## Usage
 
